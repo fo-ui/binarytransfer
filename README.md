@@ -1,6 +1,6 @@
 # LLVMAST deb package
 
-1. Install build package 
+1. Install deb package 
 
 ```
 sudo dpkg -i llvmast-1.0.deb
@@ -10,4 +10,10 @@ sudo dpkg -i llvmast-1.0.deb
 
 ```
 llvmast source.cc --
+```
+
+3. Delete 
+
+```
+dpkg -r llvmast
 ```
